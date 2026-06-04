@@ -1,0 +1,8 @@
+[project]
+name = "saas-churn-survival"
+version = "3.0.0"
+description = "Cox proportional hazards and XGBoost churn pipeline for SaaS subscriptions"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

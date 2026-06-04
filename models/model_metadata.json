@@ -1,0 +1,48 @@
+{
+  "project": "saas-churn-survival",
+  "n_train": 2000,
+  "n_test": 500,
+  "churn_rate_train": 0.3685,
+  "feature_columns": [
+    "Account_Age_Days",
+    "Daily_Usage_Mins",
+    "Account_Age_Log",
+    "Account_Age_Sqrt",
+    "Usage_Per_Day",
+    "Usage_Log",
+    "Login_Frequency_Ordinal",
+    "Login_Frequency_Rarely",
+    "Login_Frequency_Weekly"
+  ],
+  "cox_covariates": [
+    "Daily_Usage_Mins",
+    "Usage_Per_Day",
+    "Usage_Log",
+    "Login_Frequency_Ordinal",
+    "Login_Frequency_Rarely",
+    "Login_Frequency_Weekly"
+  ],
+  "duration_column": "Account_Age_Days",
+  "event_column": "Churn",
+  "metrics_test": {
+    "logistic": {
+      "accuracy": 0.81,
+      "precision": 0.7602739726027398,
+      "recall": 0.6491228070175439,
+      "f1": 0.7003154574132493,
+      "roc_auc": 0.7835368563252101
+    },
+    "xgboost": {
+      "accuracy": 0.816,
+      "precision": 0.7841726618705036,
+      "recall": 0.6374269005847953,
+      "f1": 0.703225806451613,
+      "roc_auc": 0.7893492596740077
+    },
+    "cox_concordance_train": 0.809787206394416,
+    "cox_concordance_test": 0.8338802392422444,
+    "f1_improvement_xgb_vs_logistic_pct": 0.42
+  },
+  "best_classifier": "xgboost",
+  "training_date": "2026-06-04T17:29:10.831128"
+}

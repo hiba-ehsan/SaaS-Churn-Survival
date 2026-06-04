@@ -5,7 +5,7 @@
 An end-to-end quantitative analytics pipeline that combines **Cox Proportional Hazards** (Survival Analysis) with **XGBoost** classification to predict customer churn and model time-to-event in SaaS/subscription businesses.
 
 ### Project Context
-This project was developed as an extension of my internship work at **Thingsty** (an IoT facility management platform). To respect data confidentiality, the pipeline was built and demonstrated using a public **SaaS Customer Churn Prediction Dataset** from Kaggle as a representative proxy for real subscription telemetry data.
+I developed this project as an extension of my internship work at **Thingsty** (an IoT facility management platform). To respect data confidentiality, the pipeline was built and demonstrated using a public **SaaS Customer Churn Prediction Dataset** from Kaggle as a representative proxy for real subscription telemetry data.
 
 → Dataset: [SaaS Customer Churn Prediction Dataset - Kaggle](https://www.kaggle.com/datasets/suhanigupta04/saas-customer-churn-prediction-dataset)
 

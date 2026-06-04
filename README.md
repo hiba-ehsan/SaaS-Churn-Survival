@@ -34,11 +34,11 @@ While most churn models focus only on binary classification, this pipeline model
 ### Quick Start
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/yourusername/saas-churn-survival.git
 cd saas-churn-survival
 
 python -m venv venv
-source venv/bin/activate    # Windows: venv\Scripts\activate
+source venv/bin/activate        # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 

@@ -10,7 +10,7 @@ This project was developed as an extension of my internship work at **Thingsty**
 → Dataset: [SaaS Customer Churn Prediction Dataset - Kaggle](https://www.kaggle.com/datasets/suhanigupta04/saas-customer-churn-prediction-dataset)
 
 ### The Quantitative Angle
-While most churn models focus only on binary classification, this pipeline models **hazard rates over time** using survival analysis — the same approach used by growth investors and quant teams to evaluate SaaS companies and estimate Lifetime Value (LTV).
+While most churn models focus only on binary classification, this pipeline models **hazard rates over time** using survival analysis: the same approach used by growth investors and quant teams to evaluate SaaS companies and estimate Lifetime Value (LTV).
 
 ### Key Features
 

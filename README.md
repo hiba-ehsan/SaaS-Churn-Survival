@@ -22,12 +22,13 @@ While most churn models focus only on binary classification, this pipeline model
   - Interactive Streamlit dashboard for exploration and real-time predictions
 - **Evaluation**: Concordance Index, F1-score, ROC-AUC, feature importance, and hazard ratio interpretation.
 
-**Holdout metrics (in models/model_metadata.json)**
+### Holdout Metrics (from `models/model_metadata.json`)
 
-- Model	| Metric |	Value
-Logistic | F1 | 0.70
-XGBoost | ROC-AUC | 0.79
-Cox PH | Concordance (test) | 0.83
+| Model | Metric | Value |
+|-------|--------|-------|
+| Logistic | F1 | 0.70 |
+| XGBoost | ROC-AUC | 0.79 |
+| Cox PH | Concordance (test) | 0.83 |
 
 ### Tech Stack
 
@@ -51,9 +52,3 @@ pip install -r requirements.txt
 
 # Train models
 python train_model.py
-
-# Launch Dashboard
-streamlit run visual_analysis.py
-
-# Launch API
-uvicorn api:app --reload --port 8000

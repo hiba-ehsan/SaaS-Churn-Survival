@@ -24,7 +24,7 @@ While most churn models focus only on binary classification, this pipeline model
 
 **Holdout metrics (in models/model_metadata.json)**
 
-Model	| Metric |	Value
+- Model	| Metric |	Value
 Logistic | F1 | 0.70
 XGBoost | ROC-AUC | 0.79
 Cox PH | Concordance (test) | 0.83

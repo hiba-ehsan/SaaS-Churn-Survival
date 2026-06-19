@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-"""
-Train SaaS churn models: Cox proportional hazards + XGBoost + logistic baseline.
-"""
-
 import sys
 from pathlib import Path
 

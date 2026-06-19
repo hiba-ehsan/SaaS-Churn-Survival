@@ -1,7 +1,3 @@
-"""
-Streamlit dashboard: survival-style churn metrics and model diagnostics.
-"""
-
 import json
 import sys
 from pathlib import Path
@@ -17,7 +13,7 @@ from data_loader import DataLoader
 
 st.set_page_config(page_title="SaaS Churn Survival Lab", layout="wide")
 st.title("SaaS Churn Survival Lab")
-st.caption("Cox proportional hazards + gradient boosting on subscription telemetry (2,500 accounts)")
+st.caption("Cox proportional hazards & gradient boosting on subscription telemetry (2,500 accounts)")
 
 loader = DataLoader(Config.DATA_RAW)
 if not (Config.DATA_RAW / Config.TRAIN_DATA).exists():
@@ -101,4 +97,4 @@ with tab3:
         with open(meta_path, encoding="utf-8") as f:
             st.json(json.load(f))
     else:
-        st.info("Train models first: python train_model.py")
+        st.info("Train models first: python train.py")

@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-"""Evaluate saved Cox + classification models on the holdout set."""
-
 import sys
 from pathlib import Path
 

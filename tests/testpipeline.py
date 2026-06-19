@@ -1,5 +1,3 @@
-"""Tests for data loading, features, and model training."""
-
 import sys
 from pathlib import Path
 

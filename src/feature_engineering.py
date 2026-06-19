@@ -1,7 +1,3 @@
-"""
-Feature engineering for SaaS subscription churn (classification + survival covariates).
-"""
-
 from __future__ import annotations
 
 import logging

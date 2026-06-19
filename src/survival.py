@@ -1,7 +1,3 @@
-"""
-Cox proportional hazards — churn as survival event, account age as duration.
-"""
-
 from __future__ import annotations
 
 import logging

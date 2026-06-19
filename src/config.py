@@ -1,7 +1,3 @@
-"""
-Pipeline configuration — SaaS churn / survival analysis.
-"""
-
 import os
 from pathlib import Path
 from typing import Any, Dict

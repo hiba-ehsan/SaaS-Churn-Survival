@@ -1,9 +1,3 @@
-"""
-Utility Functions
-================
-Helper functions for logging, validation, and common operations.
-"""
-
 import logging
 import json
 from pathlib import Path

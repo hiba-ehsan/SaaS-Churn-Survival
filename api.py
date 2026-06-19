@@ -1,7 +1,3 @@
-"""
-REST API for churn hazard scores and classifier probabilities.
-"""
-
 import json
 import pickle
 import sys

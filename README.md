@@ -1,4 +1,4 @@
-# SaaS Churn Survival Prediction Pipeline
+# SaaS CLV Analysis and Churn Survival Pipeline
 
 **Advanced churn modeling using Survival Analysis + Machine Learning for subscription platforms**
 

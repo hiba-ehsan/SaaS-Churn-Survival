@@ -29,20 +29,20 @@
       "accuracy": 0.81,
       "precision": 0.7602739726027398,
       "recall": 0.6491228070175439,
-      "f1": 0.7003154574132493,
-      "roc_auc": 0.7835368563252101
+      "f1": 0.7003154574132492,
+      "roc_auc": 0.7835190813914217
     },
     "xgboost": {
       "accuracy": 0.816,
-      "precision": 0.7841726618705036,
-      "recall": 0.6374269005847953,
-      "f1": 0.703225806451613,
-      "roc_auc": 0.7893492596740077
+      "precision": 0.7925925925925926,
+      "recall": 0.6257309941520468,
+      "f1": 0.6993464052287581,
+      "roc_auc": 0.7888160116603566
     },
-    "cox_concordance_train": 0.809787206394416,
+    "cox_concordance_train": 0.8097878693854603,
     "cox_concordance_test": 0.8338802392422444,
-    "f1_improvement_xgb_vs_logistic_pct": 0.42
+    "f1_improvement_xgb_vs_logistic_pct": -0.14
   },
-  "best_classifier": "xgboost",
-  "training_date": "2026-06-04T17:29:10.831128"
+  "best_classifier": "logistic",
+  "training_date": "2026-06-24T23:52:55.636140"
 }

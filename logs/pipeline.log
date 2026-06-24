@@ -1,3 +1,14 @@
 2026-06-22 01:50:48,585 - utils - INFO - ============================================================
 2026-06-22 01:50:48,585 - utils - INFO - SaaS Churn / Survival Training Pipeline
 2026-06-22 01:50:48,585 - utils - INFO - ============================================================
+2026-06-24 23:52:36,471 - utils - INFO - ============================================================
+2026-06-24 23:52:36,471 - utils - INFO - SaaS Churn / Survival Training Pipeline
+2026-06-24 23:52:36,471 - utils - INFO - ============================================================
+2026-06-24 23:52:36,514 - utils - INFO - Train (2000, 8) | Test (500, 8)
+2026-06-24 23:52:36,521 - utils - INFO - Summary: {'shape': (2000, 8), 'columns': ['Customer_ID', 'Name', 'Email', 'Account_Age_Days', 'Login_Frequency', 'Daily_Usage_Mins', 'Last_Support_Ticket', 'Churn'], 'dtypes': {'Customer_ID': 'object', 'Name': 'object', 'Email': 'object', 'Account_Age_Days': 'int64', 'Login_Frequency': 'object', 'Daily_Usage_Mins': 'int64', 'Last_Support_Ticket': 'object', 'Churn': 'int64'}, 'missing_values': {'Customer_ID': 0, 'Name': 0, 'Email': 0, 'Account_Age_Days': 0, 'Login_Frequency': 0, 'Daily_Usage_Mins': 0, 'Last_Support_Ticket': 0, 'Churn': 0}, 'duplicates': 0, 'memory_mb': np.float64(0.12219619750976562)}
+2026-06-24 23:52:37,033 - utils - INFO - 
+   model  accuracy  precision   recall       f1  roc_auc
+logistic     0.810   0.760274 0.649123 0.700315 0.783519
+ xgboost     0.816   0.792593 0.625731 0.699346 0.788816
+2026-06-24 23:52:55,638 - utils - INFO - Done. Models saved to C:\Codes\SaaS-Churn-Survival\models
+2026-06-24 23:52:55,640 - utils - INFO - XGBoost F1 lift vs logistic: -0.14%

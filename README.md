@@ -8,6 +8,7 @@ An end-to-end quantitative analytics pipeline that combines **Cox Proportional H
 I developed this project as an extension of my internship work at **Thingsty** (an IoT facility management platform). To respect data confidentiality, the pipeline was built and demonstrated using a public **SaaS Customer Churn Prediction Dataset** from Kaggle as a representative proxy for real subscription telemetry data.
 
 → Dataset: [SaaS Customer Churn Prediction Dataset - Kaggle](https://www.kaggle.com/datasets/suhanigupta04/saas-customer-churn-prediction-dataset)
+→ App: (https://saas-churn-survival.streamlit.app/)
 
 ### The Quantitative Angle
 While most churn models focus only on binary classification, this pipeline models **hazard rates over time** using survival analysis: the same approach used by growth investors and quant teams to evaluate SaaS companies and estimate Lifetime Value (LTV).

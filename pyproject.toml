@@ -3,6 +3,7 @@ name = "saas-churn-survival"
 version = "3.0.0"
 description = "Cox proportional hazards and XGBoost churn pipeline for SaaS subscriptions"
 requires-python = ">=3.9"
+#Dependencies are managed via requirements.txt (prod) and requirements-dev.txt (dev)
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

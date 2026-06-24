@@ -8,7 +8,7 @@ __version__ = "2.0.0"
 __author__ = "Growth Analytics Team"
 
 from .config import Config
-from .load_data import DataLoader
+from .loader import DataLoader
 from .feature_engineering import FeatureEngineer
 from .models import ModelTrainer
 
